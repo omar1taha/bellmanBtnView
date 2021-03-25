@@ -1,0 +1,6 @@
+framework module Pods_bellman_bd_bellman_bdUITests {
+  umbrella header "Pods-bellman-bd-bellman-bdUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ED2ECE4570F79AABD90721F /* Pods_bellman_bd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B2501A1F3CF904BC0ECFC6 /* Pods_bellman_bd.framework */; };
+		3938FD9C260CA4FB00618053 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3938FD9B260CA4FB00618053 /* homeViewController.swift */; };
+		3952C0A8260CB60C00590472 /* parentClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952C0A7260CB60B00590472 /* parentClient.swift */; };
+		3952C0AA260CB61700590472 /* homeDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952C0A9260CB61700590472 /* homeDataClient.swift */; };
+		3952C0AD260CB65900590472 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952C0AC260CB65900590472 /* URLConstants.swift */; };
+		3952C0B0260CB69400590472 /* homeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952C0AF260CB69400590472 /* homeViewModel.swift */; };
+		3952C0B3260CB6B400590472 /* homeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952C0B2260CB6B400590472 /* homeModel.swift */; };
+		3952C0B7260CBA6B00590472 /* alertViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952C0B6260CBA6B00590472 /* alertViewer.swift */; };
+		3952C0BA260CBB2700590472 /* homeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952C0B9260CBB2700590472 /* homeParser.swift */; };
+		3952C0BE260CBE3600590472 /* homeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952C0BC260CBE3600590472 /* homeCollectionViewCell.swift */; };
+		3952C0BF260CBE3600590472 /* homeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3952C0BD260CBE3600590472 /* homeCollectionViewCell.xib */; };
+		39F7DD9B260C916F00C97280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7DD9A260C916F00C97280 /* AppDelegate.swift */; };
+		39F7DD9D260C916F00C97280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7DD9C260C916F00C97280 /* ViewController.swift */; };
+		39F7DDA0260C916F00C97280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F7DD9E260C916F00C97280 /* Main.storyboard */; };
+		39F7DDA2260C917600C97280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F7DDA1260C917600C97280 /* Assets.xcassets */; };
+		39F7DDA5260C917600C97280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F7DDA3260C917600C97280 /* LaunchScreen.storyboard */; };
+		39F7DDB0260C917900C97280 /* bellman_bdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7DDAF260C917900C97280 /* bellman_bdTests.swift */; };
+		39F7DDBB260C917900C97280 /* bellman_bdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7DDBA260C917900C97280 /* bellman_bdUITests.swift */; };
+		4AB981CB317C33DE78CFECB1 /* Pods_bellman_bdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722DB2054747CA7FD0965F32 /* Pods_bellman_bdTests.framework */; };
+		F6AEC2FF562DBC16862146ED /* Pods_bellman_bd_bellman_bdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6386DACC5E9EF8EEA0272DF /* Pods_bellman_bd_bellman_bdUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39F7DDAC260C917700C97280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F7DD8F260C916E00C97280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F7DD96260C916E00C97280;
+			remoteInfo = "bellman-bd";
+		};
+		39F7DDB7260C917900C97280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F7DD8F260C916E00C97280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F7DD96260C916E00C97280;
+			remoteInfo = "bellman-bd";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A058E3FD4DCEF145BFD1073 /* Pods-bellman-bdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bellman-bdTests.debug.xcconfig"; path = "Target Support Files/Pods-bellman-bdTests/Pods-bellman-bdTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3938FD9B260CA4FB00618053 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		3952C0A7260CB60B00590472 /* parentClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parentClient.swift; sourceTree = "<group>"; };
+		3952C0A9260CB61700590472 /* homeDataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeDataClient.swift; sourceTree = "<group>"; };
+		3952C0AC260CB65900590472 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		3952C0AF260CB69400590472 /* homeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewModel.swift; sourceTree = "<group>"; };
+		3952C0B2260CB6B400590472 /* homeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeModel.swift; sourceTree = "<group>"; };
+		3952C0B6260CBA6B00590472 /* alertViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alertViewer.swift; sourceTree = "<group>"; };
+		3952C0B9260CBB2700590472 /* homeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeParser.swift; sourceTree = "<group>"; };
+		3952C0BC260CBE3600590472 /* homeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3952C0BD260CBE3600590472 /* homeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = homeCollectionViewCell.xib; sourceTree = "<group>"; };
+		39F7DD97260C916F00C97280 /* bellman-bd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bellman-bd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F7DD9A260C916F00C97280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39F7DD9C260C916F00C97280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39F7DD9F260C916F00C97280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39F7DDA1260C917600C97280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39F7DDA4260C917600C97280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39F7DDA6260C917600C97280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F7DDAB260C917700C97280 /* bellman-bdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bellman-bdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F7DDAF260C917900C97280 /* bellman_bdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bellman_bdTests.swift; sourceTree = "<group>"; };
+		39F7DDB1260C917900C97280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F7DDB6260C917900C97280 /* bellman-bdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bellman-bdUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F7DDBA260C917900C97280 /* bellman_bdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bellman_bdUITests.swift; sourceTree = "<group>"; };
+		39F7DDBC260C917900C97280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40ACE1055CBEAAEADAF2951D /* Pods-bellman-bd-bellman-bdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bellman-bd-bellman-bdUITests.release.xcconfig"; path = "Target Support Files/Pods-bellman-bd-bellman-bdUITests/Pods-bellman-bd-bellman-bdUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47B2501A1F3CF904BC0ECFC6 /* Pods_bellman_bd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bellman_bd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D02CDC47CC36F799B84928 /* Pods-bellman-bd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bellman-bd.release.xcconfig"; path = "Target Support Files/Pods-bellman-bd/Pods-bellman-bd.release.xcconfig"; sourceTree = "<group>"; };
+		722DB2054747CA7FD0965F32 /* Pods_bellman_bdTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bellman_bdTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C3018DFF8AA1444FC4CA94 /* Pods-bellman-bd-bellman-bdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bellman-bd-bellman-bdUITests.debug.xcconfig"; path = "Target Support Files/Pods-bellman-bd-bellman-bdUITests/Pods-bellman-bd-bellman-bdUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6386DACC5E9EF8EEA0272DF /* Pods_bellman_bd_bellman_bdUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bellman_bd_bellman_bdUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0C02CA16615385EDBF7CF5 /* Pods-bellman-bd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bellman-bd.debug.xcconfig"; path = "Target Support Files/Pods-bellman-bd/Pods-bellman-bd.debug.xcconfig"; sourceTree = "<group>"; };
+		D0C3CA57C841FD9275C055FE /* Pods-bellman-bdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bellman-bdTests.release.xcconfig"; path = "Target Support Files/Pods-bellman-bdTests/Pods-bellman-bdTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F7DD94260C916E00C97280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED2ECE4570F79AABD90721F /* Pods_bellman_bd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F7DDA8260C917700C97280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB981CB317C33DE78CFECB1 /* Pods_bellman_bdTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F7DDB3260C917900C97280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AEC2FF562DBC16862146ED /* Pods_bellman_bd_bellman_bdUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3938FD9A260CA4BF00618053 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				3952C0BB260CBE1C00590472 /* Cells */,
+				3952C0B1260CB6AD00590472 /* Models */,
+				3952C0B8260CBB2700590472 /* Parsers */,
+				3952C0AE260CB67F00590472 /* ViewModels */,
+				3952C0A6260CB5FB00590472 /* Clients */,
+				3938FD9B260CA4FB00618053 /* homeViewController.swift */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		3952C0A6260CB5FB00590472 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				3952C0A7260CB60B00590472 /* parentClient.swift */,
+				3952C0A9260CB61700590472 /* homeDataClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		3952C0AB260CB63B00590472 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3952C0B6260CBA6B00590472 /* alertViewer.swift */,
+				3952C0AC260CB65900590472 /* URLConstants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3952C0AE260CB67F00590472 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3952C0AF260CB69400590472 /* homeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3952C0B1260CB6AD00590472 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3952C0B2260CB6B400590472 /* homeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3952C0B8260CBB2700590472 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				3952C0B9260CBB2700590472 /* homeParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		3952C0BB260CBE1C00590472 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3952C0BC260CBE3600590472 /* homeCollectionViewCell.swift */,
+				3952C0BD260CBE3600590472 /* homeCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		39F7DD8E260C916E00C97280 = {
+			isa = PBXGroup;
+			children = (
+				39F7DD99260C916F00C97280 /* bellman-bd */,
+				39F7DDAE260C917700C97280 /* bellman-bdTests */,
+				39F7DDB9260C917900C97280 /* bellman-bdUITests */,
+				39F7DD98260C916F00C97280 /* Products */,
+				468BBC842561112D9F193536 /* Pods */,
+				FCC93D4BC991592020C3E385 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39F7DD98260C916F00C97280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F7DD97260C916F00C97280 /* bellman-bd.app */,
+				39F7DDAB260C917700C97280 /* bellman-bdTests.xctest */,
+				39F7DDB6260C917900C97280 /* bellman-bdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F7DD99260C916F00C97280 /* bellman-bd */ = {
+			isa = PBXGroup;
+			children = (
+				3952C0AB260CB63B00590472 /* Utility */,
+				3938FD9A260CA4BF00618053 /* HomeModule */,
+				39F7DD9A260C916F00C97280 /* AppDelegate.swift */,
+				39F7DD9C260C916F00C97280 /* ViewController.swift */,
+				39F7DD9E260C916F00C97280 /* Main.storyboard */,
+				39F7DDA1260C917600C97280 /* Assets.xcassets */,
+				39F7DDA3260C917600C97280 /* LaunchScreen.storyboard */,
+				39F7DDA6260C917600C97280 /* Info.plist */,
+			);
+			path = "bellman-bd";
+			sourceTree = "<group>";
+		};
+		39F7DDAE260C917700C97280 /* bellman-bdTests */ = {
+			isa = PBXGroup;
+			children = (
+				39F7DDAF260C917900C97280 /* bellman_bdTests.swift */,
+				39F7DDB1260C917900C97280 /* Info.plist */,
+			);
+			path = "bellman-bdTests";
+			sourceTree = "<group>";
+		};
+		39F7DDB9260C917900C97280 /* bellman-bdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39F7DDBA260C917900C97280 /* bellman_bdUITests.swift */,
+				39F7DDBC260C917900C97280 /* Info.plist */,
+			);
+			path = "bellman-bdUITests";
+			sourceTree = "<group>";
+		};
+		468BBC842561112D9F193536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE0C02CA16615385EDBF7CF5 /* Pods-bellman-bd.debug.xcconfig */,
+				60D02CDC47CC36F799B84928 /* Pods-bellman-bd.release.xcconfig */,
+				72C3018DFF8AA1444FC4CA94 /* Pods-bellman-bd-bellman-bdUITests.debug.xcconfig */,
+				40ACE1055CBEAAEADAF2951D /* Pods-bellman-bd-bellman-bdUITests.release.xcconfig */,
+				1A058E3FD4DCEF145BFD1073 /* Pods-bellman-bdTests.debug.xcconfig */,
+				D0C3CA57C841FD9275C055FE /* Pods-bellman-bdTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCC93D4BC991592020C3E385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47B2501A1F3CF904BC0ECFC6 /* Pods_bellman_bd.framework */,
+				B6386DACC5E9EF8EEA0272DF /* Pods_bellman_bd_bellman_bdUITests.framework */,
+				722DB2054747CA7FD0965F32 /* Pods_bellman_bdTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F7DD96260C916E00C97280 /* bellman-bd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F7DDBF260C917900C97280 /* Build configuration list for PBXNativeTarget "bellman-bd" */;
+			buildPhases = (
+				F1E18EDB8B57823B168CEB93 /* [CP] Check Pods Manifest.lock */,
+				39F7DD93260C916E00C97280 /* Sources */,
+				39F7DD94260C916E00C97280 /* Frameworks */,
+				39F7DD95260C916E00C97280 /* Resources */,
+				275AFE0185E182C82C1BCAD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bellman-bd";
+			productName = "bellman-bd";
+			productReference = 39F7DD97260C916F00C97280 /* bellman-bd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39F7DDAA260C917700C97280 /* bellman-bdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F7DDC2260C917900C97280 /* Build configuration list for PBXNativeTarget "bellman-bdTests" */;
+			buildPhases = (
+				DC4C72756EFD724F9E939F7B /* [CP] Check Pods Manifest.lock */,
+				39F7DDA7260C917700C97280 /* Sources */,
+				39F7DDA8260C917700C97280 /* Frameworks */,
+				39F7DDA9260C917700C97280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F7DDAD260C917700C97280 /* PBXTargetDependency */,
+			);
+			name = "bellman-bdTests";
+			productName = "bellman-bdTests";
+			productReference = 39F7DDAB260C917700C97280 /* bellman-bdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39F7DDB5260C917900C97280 /* bellman-bdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F7DDC5260C917900C97280 /* Build configuration list for PBXNativeTarget "bellman-bdUITests" */;
+			buildPhases = (
+				9B4986D917DD86957FBDC509 /* [CP] Check Pods Manifest.lock */,
+				39F7DDB2260C917900C97280 /* Sources */,
+				39F7DDB3260C917900C97280 /* Frameworks */,
+				39F7DDB4260C917900C97280 /* Resources */,
+				3A8384D7E693C5ADB2F9D6DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F7DDB8260C917900C97280 /* PBXTargetDependency */,
+			);
+			name = "bellman-bdUITests";
+			productName = "bellman-bdUITests";
+			productReference = 39F7DDB6260C917900C97280 /* bellman-bdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39F7DD8F260C916E00C97280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = tashaleh;
+				TargetAttributes = {
+					39F7DD96260C916E00C97280 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					39F7DDAA260C917700C97280 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 39F7DD96260C916E00C97280;
+					};
+					39F7DDB5260C917900C97280 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 39F7DD96260C916E00C97280;
+					};
+				};
+			};
+			buildConfigurationList = 39F7DD92260C916E00C97280 /* Build configuration list for PBXProject "bellman-bd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39F7DD8E260C916E00C97280;
+			productRefGroup = 39F7DD98260C916F00C97280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F7DD96260C916E00C97280 /* bellman-bd */,
+				39F7DDAA260C917700C97280 /* bellman-bdTests */,
+				39F7DDB5260C917900C97280 /* bellman-bdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F7DD95260C916E00C97280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F7DDA5260C917600C97280 /* LaunchScreen.storyboard in Resources */,
+				39F7DDA2260C917600C97280 /* Assets.xcassets in Resources */,
+				39F7DDA0260C916F00C97280 /* Main.storyboard in Resources */,
+				3952C0BF260CBE3600590472 /* homeCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F7DDA9260C917700C97280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F7DDB4260C917900C97280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		275AFE0185E182C82C1BCAD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bellman-bd/Pods-bellman-bd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bellman-bd/Pods-bellman-bd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bellman-bd/Pods-bellman-bd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A8384D7E693C5ADB2F9D6DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bellman-bd-bellman-bdUITests/Pods-bellman-bd-bellman-bdUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bellman-bd-bellman-bdUITests/Pods-bellman-bd-bellman-bdUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bellman-bd-bellman-bdUITests/Pods-bellman-bd-bellman-bdUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B4986D917DD86957FBDC509 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bellman-bd-bellman-bdUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4C72756EFD724F9E939F7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bellman-bdTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E18EDB8B57823B168CEB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bellman-bd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F7DD93260C916E00C97280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F7DD9D260C916F00C97280 /* ViewController.swift in Sources */,
+				3952C0B7260CBA6B00590472 /* alertViewer.swift in Sources */,
+				3938FD9C260CA4FB00618053 /* homeViewController.swift in Sources */,
+				3952C0A8260CB60C00590472 /* parentClient.swift in Sources */,
+				3952C0AD260CB65900590472 /* URLConstants.swift in Sources */,
+				3952C0BE260CBE3600590472 /* homeCollectionViewCell.swift in Sources */,
+				39F7DD9B260C916F00C97280 /* AppDelegate.swift in Sources */,
+				3952C0BA260CBB2700590472 /* homeParser.swift in Sources */,
+				3952C0AA260CB61700590472 /* homeDataClient.swift in Sources */,
+				3952C0B0260CB69400590472 /* homeViewModel.swift in Sources */,
+				3952C0B3260CB6B400590472 /* homeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F7DDA7260C917700C97280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F7DDB0260C917900C97280 /* bellman_bdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F7DDB2260C917900C97280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F7DDBB260C917900C97280 /* bellman_bdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F7DDAD260C917700C97280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F7DD96260C916E00C97280 /* bellman-bd */;
+			targetProxy = 39F7DDAC260C917700C97280 /* PBXContainerItemProxy */;
+		};
+		39F7DDB8260C917900C97280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F7DD96260C916E00C97280 /* bellman-bd */;
+			targetProxy = 39F7DDB7260C917900C97280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39F7DD9E260C916F00C97280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F7DD9F260C916F00C97280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39F7DDA3260C917600C97280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F7DDA4260C917600C97280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39F7DDBD260C917900C97280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39F7DDBE260C917900C97280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39F7DDC0260C917900C97280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0C02CA16615385EDBF7CF5 /* Pods-bellman-bd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "bellman-bd/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.restart-technology.bellman-bd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39F7DDC1260C917900C97280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D02CDC47CC36F799B84928 /* Pods-bellman-bd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "bellman-bd/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.restart-technology.bellman-bd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39F7DDC3260C917900C97280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A058E3FD4DCEF145BFD1073 /* Pods-bellman-bdTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bellman-bdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.restart-technology.bellman-bdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bellman-bd.app/bellman-bd";
+			};
+			name = Debug;
+		};
+		39F7DDC4260C917900C97280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C3CA57C841FD9275C055FE /* Pods-bellman-bdTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bellman-bdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.restart-technology.bellman-bdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bellman-bd.app/bellman-bd";
+			};
+			name = Release;
+		};
+		39F7DDC6260C917900C97280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C3018DFF8AA1444FC4CA94 /* Pods-bellman-bd-bellman-bdUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bellman-bdUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.restart-technology.bellman-bdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bellman-bd";
+			};
+			name = Debug;
+		};
+		39F7DDC7260C917900C97280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40ACE1055CBEAAEADAF2951D /* Pods-bellman-bd-bellman-bdUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bellman-bdUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.restart-technology.bellman-bdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bellman-bd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39F7DD92260C916E00C97280 /* Build configuration list for PBXProject "bellman-bd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F7DDBD260C917900C97280 /* Debug */,
+				39F7DDBE260C917900C97280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F7DDBF260C917900C97280 /* Build configuration list for PBXNativeTarget "bellman-bd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F7DDC0260C917900C97280 /* Debug */,
+				39F7DDC1260C917900C97280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F7DDC2260C917900C97280 /* Build configuration list for PBXNativeTarget "bellman-bdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F7DDC3260C917900C97280 /* Debug */,
+				39F7DDC4260C917900C97280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F7DDC5260C917900C97280 /* Build configuration list for PBXNativeTarget "bellman-bdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F7DDC6260C917900C97280 /* Debug */,
+				39F7DDC7260C917900C97280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39F7DD8F260C916E00C97280 /* Project object */;
+}
